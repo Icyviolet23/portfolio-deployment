@@ -19,45 +19,46 @@
     "projects": [
       {
         "id": "1",
-        "title": "Project One Test",
-        "description": "Web Design",
-        "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
+        "title": "Optiver Ready Trader Go",
+        "description": "Top 32 out of 7500 participants in Optiver's global algorithmic trading competition. Optimized Avellaneda and Stoikov’s market making strategy in low latency C++.",
+        "imageSrc": "/images/rtg.jpg",
+        "url": ""
       },
       {
         "id": "2",
-        "title": "Project Two",
-        "description": "Web Development",
-        "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
+        "title": "FTX Trading Competition",
+        "description": "Outperformed all 35 teams and over 135 participants. Traded 1.5 million USD in cryptocurrencies over 1.5 months with a profitable record of 39/45 days using a algorithmic trading bot implemented in Python.",
+        "imageSrc": "/images/ftx.jpg",
+        "url": "https://github.com/Icyviolet23/FTX-Exit_Liquidity"
       },
       {
         "id": "3",
-        "title": "Project Three",
-        "description": "Design",
-        "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
+        "title": "BotMD",
+        "description": "My First Experience with Android App Development",
+        "imageSrc": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*dad_ogdkSw6GrToWzrNJ-g.jpeg",
+        "url": "https://blog.botmd.com/interns-diary-my-first-experience-with-android-app-development-e867419c4f41"
       },
       {
         "id": "4",
-        "title": "Project Four",
-        "description": "Marketing",
-        "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
+        "title": "SleepBuddy",
+        "description": "Figma Best Design Award @ Tartanhacks2022, Carnegie Mellon University's largest hackathon. Gamified mobile application aiming to incentivize users to maintain a healthy sleep schedule. Built using Flutter.",
+        "imageSrc": "/images/sleep_buddy.png",
+        "url": "https://www.youtube.com/watch?v=rizfjVbPnFM&ab_channel=TjunJetOng"
       },
       {
         "id": "5",
-        "title": "Project Five",
-        "description": "Development",
-        "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
+        "title": "HealthFind",
+        "description": "Application which aims to help users locate the nearest hospital, dialysis clinc or COVID lab from their current location",
+        "imageSrc": "/images/health_magnifying.png",
+        "url": "https://github.com/Icyviolet23/HealthFind"
       },
+
       {
         "id": "6",
-        "title": "Project Six",
-        "description": "Design & Development",
-        "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
+        "title": "Bomb it",
+        "description": "Python project based on the popular games Bomb It 4 and Playing with Fire. Grid-based game like Bomberman using algorithms like Dijkstra, Breath-first search, Depth-first search, Prim’s, Kruskal’s for maze generation and AI pathfinding.",
+        "imageSrc": "/images/Bomberman.jpg",
+        "url": "https://www.youtube.com/watch?v=6F3a4sm5Csw&ab_channel=TzeHngLoke"
       }
     ],
     "services": [
