@@ -55,7 +55,6 @@ const Resume = () => {
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Experience</h1>
-
                 {resume.experiences.map(
                   ({ id, dates, type, position, bullets }) => (
                     <ProjectResume
@@ -69,14 +68,25 @@ const Resume = () => {
                 )}
               </div>
               <div className="mt-5">
-                <h1 className="text-2xl font-bold">Education</h1>
+                <h1 className="text-2xl font-bold">Competitions</h1>
+                {resume.competition.map(
+                  ({ id, dates, type, position, bullets }) => (
+                    <ProjectResume
+                      key={id}
+                      dates={dates}
+                      type={type}
+                      position={position}
+                      bullets={bullets}
+                    ></ProjectResume>
+                  )
+                )}
                 <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
+                  <h2 className="text-lg">{resume.competition.competitionName}</h2>
                   <h3 className="text-sm opacity-75">
-                    {resume.education.universityDate}
+                    {resume.competition.competitionDate}
                   </h3>
                   <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
+                    {resume.competition.competitionPara}
                   </p>
                 </div>
               </div>

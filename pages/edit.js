@@ -663,7 +663,7 @@ const Edit = () => {
             </div>
             <hr className="my-10"></hr>
             <div className="mt-10">
-              <h1>Education</h1>
+              <h1>Competitions</h1>
               <div className="flex items-center mt-5">
                 <label className="w-1/5 text-lg opacity-50">Name</label>
                 <input

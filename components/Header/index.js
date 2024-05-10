@@ -80,7 +80,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         window.open("mailto:hello@chetanverma.com")
                       }
                     >
-                      Projects & Competitions
+                      Skills & Experiences
                     </Button>
                   )}
                 </div>
@@ -97,7 +97,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       onClick={() => router.push("/resume")}
                       classes="first:ml-1"
                     >
-                      Projects & Competitions
+                      Skills & Experiences
                     </Button>
                   )}
                 </div>
@@ -129,7 +129,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Projects & Competitions
+                Skills & Experiences
               </Button>
             )}
             {mounted && theme && data.darkMode && (
@@ -154,7 +154,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Projects & Competitions
+                Skills & Experiences
               </Button>
             )}
 

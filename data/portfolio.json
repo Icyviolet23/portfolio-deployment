@@ -22,7 +22,7 @@
         "title": "Optiver Ready Trader Go",
         "description": "Top 32 out of 7500 participants in Optiver's global algorithmic trading competition. Optimized Avellaneda and Stoikov’s market making strategy in low latency C++.",
         "imageSrc": "/images/rtg.jpg",
-        "url": ""
+        "url": "https://github.com/Icyviolet23/OptiverRTG_genericsegtree"
       },
       {
         "id": "2",
@@ -85,29 +85,65 @@
     ],
     "aboutpara": "Hi! I'm Tze Hng, currently a Computer Science undergraduate @ Carnegie Mellon University. I am passionate about solving challenging problems in the fields of Computer Science and Quantitative Finance. I am particularly interested in topics involving both technology and finance and I enjoy learning more by taking part in hackathons and algorithmic trading competitions! ",
     "resume": {
-      "tagline": "👋  I'm a software engineer, product designer, and maker.",
-      "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+      "tagline": "I am a Computer Science undergraduate @ Carnegie Mellon University. I am passionate about technology and quantitative finance and I enjoy building cool applications!",
       "experiences": [
         {
           "id": "1",
-          "dates": "March 2022 - Present",
-          "type": "Full Time",
-          "position": "Frontend Engineer at X",
-          "bullets": ["hello", "hi"]
+          "dates": "Amazon Inc.",
+          "type": "June 2023 - August 2023",
+          "position": "Software Development Engineering Intern",
+          "bullets": ["Developed new end-user facing features in React Native for Amazon Fire TV’s main page used by over 50 million active users monthly.", "Integrated a new React Native visualization tool that reduces debugging time by over 80%."]
         },
         {
           "id": "2",
-          "dates": "March 2020 - March 2022",
-          "type": "Full Time",
-          "position": "Frontend Engineer at X",
-          "bullets": ""
+          "dates": "Carnegie Mellon University",
+          "type": "August 2022 - May 2023",
+          "position": "Teaching Assistant",
+          "bullets": ["Mentored over 60+ students weekly in mastering Data Structures and Algorithms in C."]
+        },
+        {
+            "id": "3",
+            "dates": "Botmd",
+            "type": "May 2022 - August 2022",
+            "position": "Software Engineering Intern",
+            "bullets": ["Ensured integrity and robustness of code by developing an automated testing framework for Botmd’s android app using Espresso, Kotlin, Java, Gradle and Android Studio, detecting 25% more bugs.", "Integrated framework with CI/CD pipeline run over 50 times daily, reducing application crashes by 30%.", "Created a brand new web application using React and Google Maps API, enabling over 15,000 users in the Philippines to find the nearest hospitals and clinics in real time."]
+        },
+        {
+            "id": "4",
+            "dates": "GIC Private Limited",
+            "type": "December 2020 - July 2021",
+            "position": "Junior Data Platforms Engineer",
+            "bullets": ["Spearheaded development of data pipeline that analyzed key insights from over 10 million data points from GIC’s search engine, used by over 1500 employees, using Python, Tableau, PySpark, SQL and Solr.", "Created 10 dashboards that increased search relevance by 50% and decreased costs by 30%."]
         }
       ],
-      "education": {
-        "universityName": "University X",
-        "universityDate": "2016-2020",
-        "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "competition": [{
+        "id": "1",
+        "dates": "Optiver’s Ready Trader Go",
+        "type": "2023",
+        "position": "Top 1%",
+        "bullets": ["Top 1%, top 32 out of 2800 teams of 3 for Optiver's global trading challenge (Ready Trader Go) involving undergraduates & post-graduates from the US, EU and Asia Pacific.", "Developed and tuned algorithmic trading bot using the Avellaneda and Stoikov's market making strategy in low latency C++."]
       },
+      {
+        "id": "2",
+        "dates": "IMC Prosperity Global Trading Challenge",
+        "type": "2023",
+        "position": "Top 3%",
+        "bullets": ["Top 3% out of 2000 teams of 5 for IMC's global trading challenge (IMC Prosperity) involving undergraduates & post-graduates from the US, EU and Asia Pacific.", "Developed algorithmic trading bot incorporating various strategies such as Pairs Trading and Avellaneda and Stoikov's market making strategy in Python.", "Optimized strategies based on market data as well as news forecasts provided during the competition."]
+      },
+      {
+        "id": "3",
+        "dates": "FTX Trading Competition",
+        "type": "2022",
+        "position": "Overall Champions",
+        "bullets": ["1st place out of 35 teams with over 135 participants at FTX's trading competition.", "Traded 1.5 million USD in cryptocurrencies over 1.5 months with a profitable record of 39/45 days using a algorithmic trading bot implemented in Python."]
+      },
+      {
+        "id": "4",
+        "dates": "Optiver Market Making Game",
+        "type": "2022",
+        "position": "1st Place",
+        "bullets": ["First place out of 30 teams for Price Estimation with over 150 participants.", "Applied mathematical concepts to estimate intrinsic value of contracts to within 10% error."]
+      }],
       "languages": ["C", "C++", "CSS", "HTML", "Java", "JavaScript", "Kotlin", "Python", "Pyspark", "SML", "SQL", "TypeScript"],
       "machineLearning": ["Keras", "Numpy", "Pandas", "PyTorch", "Scipy", "Sklearn", "Tensorflow", "Time Series", "XGBoost"],
       "softwareEngineering": ["Android Studio", "Django", "Espresso", "Firebase", "Flask", "Flutter", "NodeJS", "React", "React Native"]
