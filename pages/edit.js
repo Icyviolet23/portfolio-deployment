@@ -786,9 +786,9 @@ const Edit = () => {
               </div>
               <hr className="my-10"></hr>
               <div className="flex">
-                <label className="w-1/5 text-lg opacity-50">Frameworks</label>
+                <label className="w-1/5 text-lg opacity-50">machineLearning</label>
                 <div className="w-4/5 ml-10 flex flex-col">
-                  {data.resume.frameworks.map((framework, index) => (
+                  {data.resume.machineLearning.map((framework, index) => (
                     <div key={index} className="flex">
                       <input
                         value={framework}
@@ -797,10 +797,10 @@ const Edit = () => {
                             ...data,
                             resume: {
                               ...data.resume,
-                              frameworks: [
-                                ...data.resume.frameworks.slice(0, index),
+                              machineLearning: [
+                                ...data.resume.machineLearning.slice(0, index),
                                 e.target.value,
-                                ...data.resume.frameworks.slice(index + 1),
+                                ...data.resume.machineLearning.slice(index + 1),
                               ],
                             },
                           });
@@ -814,7 +814,7 @@ const Edit = () => {
                             ...data,
                             resume: {
                               ...data.resume,
-                              frameworks: data.resume.frameworks.filter(
+                              machineLearning: data.resume.machineLearning.filter(
                                 (value, i) => index !== i
                               ),
                             },
@@ -831,7 +831,7 @@ const Edit = () => {
                         ...data,
                         resume: {
                           ...data.resume,
-                          frameworks: [...data.resume.frameworks, "Added"],
+                          machineLearning: [...data.resume.machineLearning, "Added"],
                         },
                       })
                     }
@@ -844,9 +844,9 @@ const Edit = () => {
               </div>
               <hr className="my-10"></hr>
               <div className="flex">
-                <label className="w-1/5 text-lg opacity-50">Others</label>
+                <label className="w-1/5 text-lg opacity-50">softwareEngineering</label>
                 <div className="w-4/5 ml-10 flex flex-col">
-                  {data.resume.others.map((other, index) => (
+                  {data.resume.softwareEngineering.map((other, index) => (
                     <div key={index} className="flex">
                       <input
                         value={other}
@@ -855,10 +855,10 @@ const Edit = () => {
                             ...data,
                             resume: {
                               ...data.resume,
-                              others: [
-                                ...data.resume.others.slice(0, index),
+                              softwareEngineering: [
+                                ...data.resume.softwareEngineering.slice(0, index),
                                 e.target.value,
-                                ...data.resume.others.slice(index + 1),
+                                ...data.resume.softwareEngineering.slice(index + 1),
                               ],
                             },
                           });
@@ -872,7 +872,7 @@ const Edit = () => {
                             ...data,
                             resume: {
                               ...data.resume,
-                              others: data.resume.others.filter(
+                              softwareEngineering: data.resume.softwareEngineering.filter(
                                 (value, i) => index !== i
                               ),
                             },
@@ -889,7 +889,7 @@ const Edit = () => {
                         ...data,
                         resume: {
                           ...data.resume,
-                          others: [...data.resume.others, "Added"],
+                          softwareEngineering: [...data.resume.softwareEngineering, "Added"],
                         },
                       })
                     }
