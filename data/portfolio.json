@@ -62,26 +62,6 @@
       }
     ],
     "services": [
-      {
-        "id": "1",
-        "title": "Art Direction",
-        "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
-      },
-      {
-        "id": "2",
-        "title": "Branding",
-        "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
-      },
-      {
-        "id": "3",
-        "title": "Web Design",
-        "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
-      },
-      {
-        "id": "4",
-        "title": "3D Design",
-        "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
-      }
     ],
     "aboutpara": "Hi! I'm Tze Hng, currently a Computer Science undergraduate @ Carnegie Mellon University. I am passionate about solving challenging problems in the fields of Computer Science and Quantitative Finance. I am particularly interested in topics involving both technology and finance and I enjoy learning more by taking part in hackathons and algorithmic trading competitions! ",
     "resume": {
@@ -89,27 +69,34 @@
       "experiences": [
         {
           "id": "1",
+          "dates": "Citadel Securities",
+          "type": "June 2024 - Present",
+          "position": "Software Engineering Intern",
+          "bullets": ["Created python tool that speeds up data ingestion pipeline for regulatory data by 50x.", "Implemented amendment tool that allows desks to amend tens of millions of erroneous transaction records in half the time."]
+        },
+        {
+          "id": "2",
           "dates": "Amazon Inc.",
           "type": "June 2023 - August 2023",
           "position": "Software Development Engineering Intern",
           "bullets": ["Developed new end-user facing features in React Native for Amazon Fire TV’s main page used by over 50 million active users monthly.", "Integrated a new React Native visualization tool that reduces debugging time by over 80%."]
         },
         {
-          "id": "2",
+          "id": "3",
           "dates": "Carnegie Mellon University",
           "type": "August 2022 - May 2023",
           "position": "Teaching Assistant",
           "bullets": ["Mentored over 60+ students weekly in mastering Data Structures and Algorithms in C."]
         },
         {
-            "id": "3",
+            "id": "4",
             "dates": "Botmd",
             "type": "May 2022 - August 2022",
             "position": "Software Engineering Intern",
             "bullets": ["Ensured integrity and robustness of code by developing an automated testing framework for Botmd’s android app using Espresso, Kotlin, Java, Gradle and Android Studio, detecting 25% more bugs.", "Integrated framework with CI/CD pipeline run over 50 times daily, reducing application crashes by 30%.", "Created a brand new web application using React and Google Maps API, enabling over 15,000 users in the Philippines to find the nearest hospitals and clinics in real time."]
         },
         {
-            "id": "4",
+            "id": "5",
             "dates": "GIC Private Limited",
             "type": "December 2020 - July 2021",
             "position": "Junior Data Platforms Engineer",
